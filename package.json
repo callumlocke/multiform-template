@@ -11,9 +11,17 @@
     "multiform": "0.0.1-alpha"
   },
   "devDependencies": {
+    "babel-eslint": "^3.0.1",
     "eslint": "^0.20.0",
     "multiform-build": "0.0.1-alpha"
   },
+  "files": [
+    "src",
+    "lib-0",
+    "lib-1",
+    "index.js",
+    "multiform.json"
+  ],
   "homepage": "https://github.com/callumlocke/multiform-template",
   "keywords": [
     "babel",
@@ -28,6 +36,6 @@
     "url": "https://github.com/callumlocke/multiform-template"
   },
   "scripts": {
-    "prepublish": "multiform --clean"
+    "prepublish": "eslint src && multiform --clean"
   }
 }
