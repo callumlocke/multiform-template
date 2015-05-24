@@ -1,3 +1,6 @@
+import Promise from 'bluebird';
+
+
 export default class Foo {
   someProperty = 123;
   static anotherProperty = 456;
