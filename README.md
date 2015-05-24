@@ -5,7 +5,7 @@ This repo is an example of a [Multiform](https://github.com/callumlocke/multifor
 Branches:
 
 - [`master`](https://github.com/callumlocke/multiform-template) – just the basics
-- `tdd` (current) – an example with linting and testing
+- `tdd` – an example with linting and testing
 
 
 ## TDD setup
