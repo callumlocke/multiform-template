@@ -1,34 +1,29 @@
 {
   "name": "multiform-template",
-  "description": "Template for a multiform module optimised for both io.js and Node.",
+  "description": "Template for a multiform module.",
   "version": "0.0.1-alpha",
   "author": "Callum Locke",
   "bugs": {
     "url": "https://github.com/callumlocke/multiform-template/issues"
   },
   "dependencies": {
-    "bluebird": "^2.9.24",
-    "multiform": "0.0.1-alpha"
+    "babel-runtime": "^5.4.7",
+    "bluebird": "^2.9.25",
+    "multiform": "^0.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "^3.0.1",
-    "eslint": "^0.20.0",
-    "multiform-build": "0.0.1-alpha"
+    "babel-eslint": "^3.1.8",
+    "eslint": "^0.21.2",
+    "multiform-build": "^0.1.0"
   },
   "files": [
     "src",
-    "lib-0",
-    "lib-1",
+    "dist-0",
+    "dist-1",
     "index.js",
     "multiform.json"
   ],
   "homepage": "https://github.com/callumlocke/multiform-template",
-  "keywords": [
-    "babel",
-    "build",
-    "module",
-    "multiform"
-  ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
@@ -36,6 +31,6 @@
     "url": "https://github.com/callumlocke/multiform-template"
   },
   "scripts": {
-    "prepublish": "eslint src && multiform --clean"
+    "prepublish": "eslint src && multiform"
   }
 }

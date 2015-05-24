@@ -1,6 +1,5 @@
-'use strict';
-
 import Promise from 'bluebird';
+
 
 export default class Foo {
   someProperty = 123;
@@ -9,5 +8,9 @@ export default class Foo {
   async doSomething () {
     await Promise.delay(1000);
     return 1;
+  }
+
+  *someGenerator(foo) {
+    yield foo;
   }
 }
