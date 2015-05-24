@@ -31,6 +31,9 @@
     "url": "https://github.com/callumlocke/multiform-template"
   },
   "scripts": {
-    "prepublish": "eslint src && multiform"
+    "prepublish": "eslint . && multiform",
+    "pretest": "multiform",
+    "test": "node test.js",
+    "watch": "nodemon --exec 'npm run test' --watch src --watch index.js --watch test.js --watch package.json --watch multiform.json"
   }
 }

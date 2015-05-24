@@ -10,7 +10,7 @@ export default class Foo {
     return 1;
   }
 
-  *someGenerator(foo) {
-    yield foo;
+  *someGenerator() {
+    yield 99;
   }
 }
