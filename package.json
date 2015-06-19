@@ -7,13 +7,13 @@
     "url": "https://github.com/callumlocke/multiform-template/issues"
   },
   "dependencies": {
-    "babel-runtime": "^5.4.7",
-    "bluebird": "^2.9.25",
+    "babel-runtime": "^5.5.8",
+    "bluebird": "^2.9.30",
     "multiform": "^0.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "^3.1.8",
-    "multiform-build": "^0.1.0"
+    "babel-eslint": "^3.1.17",
+    "multiform-build": "^0.1.1"
   },
   "files": [
     "src",
