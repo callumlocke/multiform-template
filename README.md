@@ -15,3 +15,4 @@ Branches:
 - To keep it simple, no testing library (mocha, tape etc) is used for this demo. The test script is just `node test.js`.
 
 - Run `npm run watch` to automatically rebuild and run tests while you work on files in `src`.
+
