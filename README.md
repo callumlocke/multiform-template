@@ -16,3 +16,13 @@ Branches:
 
 - Run `npm run watch` to automatically rebuild and run tests while you work on files in `src`.
 
+
+[![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
+
+
+<!-- badge URLs -->
+[travis-url]: http://travis-ci.org/callumlocke/multiform-template
+[travis-image]: https://img.shields.io/travis/callumlocke/multiform-template.svg?style=flat-square
+
+[depstat-url]: https://david-dm.org/callumlocke/multiform-template
+[depstat-image]: https://img.shields.io/david/callumlocke/multiform-template.svg?style=flat-square
